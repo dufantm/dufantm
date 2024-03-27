@@ -1,0 +1,13 @@
+body{
+    font-family: Georgia, 'Times New Roman', 
+    Times, serif;
+}
+
+.start_bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.start_bar_col:first-child span{
+    margin-right: 5px;
+}
