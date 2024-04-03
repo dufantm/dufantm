@@ -56,10 +56,15 @@ body{
 .login-form input[type="submit"] {
     background-color: yellow;
     cursor: pointer;
+    transition: background-color 1s;
 }
 
 .login-form a{
     text-align: center;
+}
+
+.login-form input[type="submit"]:hover{
+    background-color: rgb(168, 168, 12);
 }
 
 /* .start_bar_col:last-child{

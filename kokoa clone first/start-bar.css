@@ -7,13 +7,10 @@
     width: 33%;
 }
 
-.start_bar_col:last-child{
+.start_bar_col:nth-child(3){
     text-align: right;
 }
 
-.start_bar_col:first-child span{
-    margin-right: 5px;
-}
 
 .start_bar_col:nth-child(2){
     text-align: center;
