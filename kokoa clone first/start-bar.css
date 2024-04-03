@@ -3,6 +3,11 @@
     justify-content: center;
 }
 
+.start_bar_col i:nth-child(2) {
+    text-align: right;
+    width: 15px;
+}
+
 .start_bar_col{
     width: 33%;
 }

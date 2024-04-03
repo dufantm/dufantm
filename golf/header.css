@@ -1,0 +1,12 @@
+@import "nav.css";
+@import "footer.css";
+
+.header {
+    color: white;
+    text-align: center;
+}
+
+body{
+    margin: 0;
+    background-color: darkgreen;
+}

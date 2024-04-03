@@ -1,0 +1,12 @@
+@import "nav.css";
+@import "footer.css";
+@import "header.css";
+
+.main{
+    background-color: bisque;
+    width: 100%;
+    height: 400px;
+    font-size: large;
+    
+}
+
