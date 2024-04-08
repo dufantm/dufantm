@@ -1,12 +1,18 @@
-@import "nav.css";
-@import "footer.css";
 
-.header {
+.screen_header {
+    background-color: darkgreen;
     color: white;
     text-align: center;
 }
 
-body{
-    margin: 0;
+.screen_header_title{
     background-color: darkgreen;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 80px;
+    padding-top: 30px;
+}
+
+body{
+    margin: 0px;
 }

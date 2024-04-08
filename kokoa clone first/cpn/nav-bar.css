@@ -1,0 +1,50 @@
+.nav_ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+}
+
+.nav_li{
+    list-style-type: none;
+    position: relative;
+}
+
+.nav{
+    background-color: gainsboro;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.nav_li_a{
+    font-size:xx-large;
+    color: black;
+}
+
+.nav_li_span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: red;
+    color: white;
+    width: 27px;
+    height: 27px;
+    border-radius: 14px ;
+    left: 20px;
+    bottom: 20px;
+}
+
+.nav_li:last-child .nav_li_span{
+    width: 8px;
+    height: 8px;
+    left: 25px;
+    bottom: 30px;
+}

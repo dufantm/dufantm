@@ -1,2 +1,24 @@
-@import "nav-bar.css";
-@import "start-bar.css";
+
+@import "cpn/nav-bar.css";
+@import "cpn/start-bar.css";
+@import "cpn/screen-header.css";
+@import "cpn/user.css";
+
+body{
+    color: #2e363e;
+}
+
+#info{
+
+    text-align: center;
+    display: block;
+    width: 100%;
+    background-color: #fafafa;
+    padding: 10px 0px;
+    margin-bottom: 7px;
+}
+
+#info i{
+    margin: 0px 8px;
+    opacity: 0.3;
+}

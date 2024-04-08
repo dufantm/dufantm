@@ -1,5 +1,6 @@
-@import "reset.css";
-@import "start-bar.css";
+@import "cpn/reset.css";
+@import "cpn/start-bar.css";
+
 
 body{
     font-family: Georgia, 'Times New Roman',

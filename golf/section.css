@@ -3,10 +3,12 @@
 @import "header.css";
 
 .main{
-    background-color: bisque;
     width: 100%;
-    height: 400px;
+    height: 600px;
     font-size: large;
-    
+    background-image: url(https://cdn.ceomagazine.co.kr/news/photo/202209/31181_23469_4252.jpg);
+    background-size: cover;
+    opacity: 0.5;
 }
+
 
