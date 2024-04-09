@@ -3,6 +3,7 @@
 @import "cpn/start-bar.css";
 @import "cpn/screen-header.css";
 @import "cpn/user.css";
+@import "reset.css";
 
 body{
     color: #2e363e;
@@ -21,4 +22,11 @@ body{
 #info i{
     margin: 0px 8px;
     opacity: 0.3;
+}
+
+.friend_channal_header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
 }

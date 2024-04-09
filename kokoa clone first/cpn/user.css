@@ -1,12 +1,16 @@
 .user{
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
 
 }
+
 
 .user_col{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    height: 70px;
 }
 
 .user_img{
@@ -36,3 +40,15 @@
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+.friend_channal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aa{
+    display: flex;
+    justify-content: space-between;
+}
+
